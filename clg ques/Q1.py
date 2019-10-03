@@ -16,9 +16,9 @@ def func1(a,b):
 #It will take lesser time than func1
 def func2(a,b):
         temp =0
-        for i in range(a,b):
-                if(i%7==0): 
-                    temp = i
+        for num in range(a,b):
+                if(num%7==0): 
+                    temp = num
                     break
                 
         
