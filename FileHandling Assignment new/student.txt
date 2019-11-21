@@ -1,0 +1,8 @@
+1,Sonu,85
+2,Monu,90
+3,Chintu,78
+4,Mintu,96
+5,Guddu,98
+6,Duggu,88
+7,pinku,69
+8,Pinki,82
