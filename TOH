@@ -1,0 +1,11 @@
+def hanoi(n, source, dest, aux):
+    if n == 1:
+        print('Move disk', n ,'from ', source, ' to ', dest)
+        return
+    else:
+        hanoi(n-1, source, aux, dest)
+        print('Move disk', n ,'from ', source, ' to ', dest)
+        hanoi(n-1, aux, dest, source)
+    
+
+hanoi(2, 'A', 'B', 'C')
